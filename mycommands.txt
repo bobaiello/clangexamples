@@ -1,0 +1,28 @@
+    1  gcc --version
+    2  git clone git@github.com:bobaiello/clangexamples.git
+    3  ls -lt
+    4  cd clangexamples/
+    5  ls -lt
+    6  type Makefile 
+    7  cat Makefile 
+    8  cc -c hello.c -o hello.o
+    9  ls -lt
+   10  cc hello.o -o hello
+   11  ls -lt
+   12  file hello.c
+   13  apt-get file
+   14  apt-get install coreutils
+   15  file hello.c
+   16  which file
+   17  apt-get update
+   18  apt-get install file
+   19  file hello.c
+   20  file hello.o
+   21  file hello
+   22  ./hello 
+   23  vi hello.c
+   24  cc -c hello.c -o hello.o
+   25  cc hello.o -o hello
+   26  ./hello 
+   27  history 
+   28  history > mycommands.txt
